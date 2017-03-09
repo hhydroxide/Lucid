@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Lucid",
+    "description": "Today's achievements will reflect in our dreams tonight.",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "icon.png",
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "storage",
+        "notifications"
+    ]
+}
