@@ -12,7 +12,10 @@
         ]
     },
     "permissions": [
+        "notifications",
+        "activeTab",
         "storage",
-        "notifications"
+        "background",
+        "alarms"
     ]
 }
