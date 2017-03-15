@@ -53,8 +53,8 @@ function buttonClicked(notId, button) { // buttonIndex: 0 = ok || 1 = shut up
 function createNotification() {
 	var opt = {
 		type: "basic",
-		title: "IT'S TIME TO DRINK!",
-		message: "Drink some water now.",
+		title: "REALITY CHECK TIME!",
+		message: "Can you push your thumb through your other hand.",
 		iconUrl: "../icons/popup_icon.png",
 		priority: 2,
 		buttons: [{
@@ -116,8 +116,8 @@ chrome.runtime.onInstalled.addListener(function(installed) {
 	if(installed.reason == "update") {
 		var opt = {
 			type: "basic",
-			title: "Drink! Update",
-			message: "Drink! has been updated to version " + version + ". Get full changelog on chrome webstore.",
+			title: "Lucid! Update",
+			message: "Lucid! has been updated to version " + version + ". Get full changelog on chrome webstore.",
 			iconUrl: "../icons/popup_icon.png",
 			priority: 1
 		}
