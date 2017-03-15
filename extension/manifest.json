@@ -1,12 +1,10 @@
 {
-  "name": "Drink",
-  "short_name": "Drink",
+  "name": "Lucid",
+  "short_name": "Lucid",
   "version": "0.3.2",
   "minimum_chrome_version": "29",
   "manifest_version": 2,
-  "description": "Behold the everday struggle of drinking too little.",
-  "author": "Markus &Ouml;lhafen",
-  "homepage_url": "http://markusoelhafen.com",
+  "description": "Today's dreams will be tonight's reality.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -18,10 +16,10 @@
     ],
     "persistent": true
   },
-  "omnibox": { "keyword" : "drink" },
+  "omnibox": { "keyword" : "lucid" },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "Drink",
+    "default_title": "Lucid",
     "default_popup": "index.html"
   },
   "permissions": [
