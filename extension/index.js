@@ -8,7 +8,7 @@ function run() {
 }
 
 function alarm() {
-	console.log('drink now');
+	console.log('lucid now');
 	stop();
 	reset();
 }
